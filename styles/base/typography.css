@@ -17,7 +17,7 @@
     font-size: var(--font-size-preset-1);
     font-weight: var(--font-weight-semibold);
     line-height: var(--line-height-preset-1);
-    letter-spacing: var(--letter-spacing);
+    letter-spacing: var(--letter-spacing)
 }
 
 .text-preset-2 {
