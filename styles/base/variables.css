@@ -16,6 +16,9 @@
     --font-size-preset-2: 0.813rem; /* 13px */
     --font-size-preset-3: 0.813rem; /* 13px */
     --font-size-preset-4: 0.688rem; /* 11px */
+
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
     
     --line-height-preset-1: 1.2;
     --line-height-preset-2: 1.1;
