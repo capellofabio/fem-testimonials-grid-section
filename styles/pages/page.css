@@ -7,3 +7,81 @@ main {
     max-width: 90%;
     margin: 73px auto;
 }
+
+/* Tablet */
+@media screen and (width >= 768px) {
+    main {
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: var(--spacing-400);
+    }
+
+    [data-user="daniel-clifford"] {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    [data-user="jonathan-walters"] {
+        grid-column: 1 / 1;
+        grid-row: 2;
+    }
+
+    [data-user="jeanette-harmon"] {
+        grid-column: 2 / 2;
+        grid-row: 2;
+    }
+
+    [data-user="patrick-abrams"] {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    [data-user="kira-whittle"] {
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
+}
+
+/* Desktop (large screen) */
+@media screen and (width >= 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: var(--spacing-400);
+        row-gap: var(--spacing-300);
+    }
+
+    [data-user="daniel-clifford"] {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    [data-user="jonathan-walters"] {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    [data-user="jeanette-harmon"] {
+        grid-column: 1 / span 1;
+        grid-row: 2;
+    }
+
+    [data-user="patrick-abrams"] {
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+
+    [data-user="kira-whittle"] {
+        grid-column: 4;
+        grid-row: 1 / span 2;
+    }    
+}

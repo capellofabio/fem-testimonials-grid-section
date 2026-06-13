@@ -75,3 +75,10 @@
         margin: var(--spacing-200) 0;
     }
 }
+
+/* Resets card margin in favor of grid gap */
+@media screen and (width >= 768px) {
+    .card {
+        margin: 0;
+    }
+}
