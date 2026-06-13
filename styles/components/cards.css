@@ -20,10 +20,6 @@
     color: var(--clr-grey-400);
 }
 
-[data-color="grey-300"] {
-    color: var(--clr-grey-300);
-}
-
 [data-color="grey-200"] {
     color: var(--clr-grey-200);
 }
