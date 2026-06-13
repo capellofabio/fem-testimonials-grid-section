@@ -1,0 +1,9 @@
+body {
+    color: var(--clr-white);
+}
+
+main {
+    min-width: 19rem;
+    max-width: 90%;
+    margin: 73px auto;
+}
