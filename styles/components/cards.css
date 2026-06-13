@@ -1,0 +1,77 @@
+/* Cards' background values */
+[data-bg="grey-500"] {
+    background-color: var(--clr-grey-500);
+}
+
+[data-bg="dark-blue"] {
+    background-color: var(--clr-dark-blue);
+}
+
+[data-bg="purple-500"] {
+    background-color: var(--clr-purple-500);
+}
+
+/* Font colors */
+[data-color="grey-500"] {
+    color: var(--clr-grey-500);
+}
+
+[data-color="grey-400"] {
+    color: var(--clr-grey-400);
+}
+
+[data-color="grey-300"] {
+    color: var(--clr-grey-300);
+}
+
+[data-color="grey-200"] {
+    color: var(--clr-grey-200);
+}
+
+[data-color="grey-100"] {
+    color: var(--clr-grey-100);
+}
+
+[data-color="dark-blue"] {
+    color: var(--clr-dark-blue);
+}
+
+[data-color="purple-50"] {  
+    color: var(--clr-purple-50);
+}
+
+/* Image border toggle */
+[data-border="true"] {
+    border: 2px solid var(--clr-purple-300);
+    box-sizing: content-box;
+}
+
+.card {
+    border-radius: 0.5rem;
+    padding: var(--spacing-400);
+    margin-bottom: var(--spacing-400);
+    box-shadow: 40px 60px 50px 47px #48556a25;
+
+    /* Gets photo and texts in the same line */
+    .card__header {
+        display: flex;
+    }
+
+    .card__photo {
+        height: auto;
+        width: 28px;
+        border-radius: 100%;
+    }
+
+    .card__profile {
+        margin-left: var(--spacing-200);
+    }
+
+    .card__name {
+        margin-bottom: var(--spacing-50);
+    }
+
+    .card__highlight {
+        margin: var(--spacing-200) 0;
+    }
+}
