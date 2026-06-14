@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/capellofabio/fem-testimonials-grid-section/)
-- Live Site URL: [Add live site URL here](https://capellofabio.github.io/fem-testimonials-grid-section/)
+- Solution URL: [GitHub](https://github.com/capellofabio/fem-testimonials-grid-section/)
+- Live Site URL: [GitHub Pages](https://capellofabio.github.io/fem-testimonials-grid-section/)
 
 ## My process
 
