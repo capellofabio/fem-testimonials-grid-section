@@ -62,6 +62,7 @@ I've improved on my CSS Grid skills, learned how a component-based approach work
     src: url(../../typography/BarlowSemiCondensed-SemiBold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 ```
 
